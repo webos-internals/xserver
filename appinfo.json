@@ -1,0 +1,11 @@
+{
+    "title":        "Xorg Server",
+    "id":           "org.webosinternals.xlauncher",
+    "type":         "game",
+    "main":         "start.sh",
+    "vendor":       "WebOS Internals",
+    "vendor_email": "support@webos-internals.org",
+    "vendor_url":   "http://www.webos-internals.org/wiki/Application:X",
+    "version":      "0.0.1",
+    "icon":         "icon.png"
+}
