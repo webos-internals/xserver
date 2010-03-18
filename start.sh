@@ -1,11 +1,11 @@
 #!/bin/sh
 #Launches the x server
 
-#XXX: Grab this from pwd? dirname $0, etc?
-APP_DIR=/media/cryptofs/apps/usr/palm/applications/org.webosinternals.x11
+#This is where the X server lives
+APP_DIR=/media/cryptofs/apps/usr/palm/applications/org.webosinternals.xorg-server
 KEYMAP_DIR=$APP_DIR/share/X11/xkb/keymap
 
-export PATH=$PATH:$APP_DIR/bin
+export PATH=$APP_DIR/bin:$PATH
 #Portrait orientation
 Xsdl -noreset -nolisten tcp -retro -screen 320x480x24 :0 &
 #Landscape
