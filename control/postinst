@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPID=org.webosinternals.x11
+APPID=org.webosinternals.xlauncher
 
 APPS=/media/cryptofs/apps
 
