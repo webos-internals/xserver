@@ -1,6 +1,6 @@
 {
     "title":        "Xorg Server",
-    "id":           "org.webosinternals.xlauncher",
+    "id":           "org.webosinternals.x11",
     "type":         "game",
     "main":         "start.sh",
     "vendor":       "WebOS Internals",
