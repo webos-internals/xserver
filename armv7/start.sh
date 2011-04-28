@@ -1,9 +1,7 @@
 #!/bin/sh
 #Launches the x server
 
-#This script should be called from anything that wants/needs an X server
-#Assumes 'DISPLAY' variable is /set/ to what we should launch the server on
-#(invoke like: 'DISPLAY=:0.0 /path/to/this/file/start.sh')
+DISPLAY=:0.0
 
 #This is where the X server lives
 APP_DIR=/media/cryptofs/apps/usr/palm/applications/org.webosinternals.xserver
