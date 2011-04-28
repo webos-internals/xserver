@@ -134,7 +134,7 @@
 // SDLK_F14		= 295;
 // SDLK_F15		= 296;
 
-default xkb_keycodes "palm-pre" {
+default xkb_keycodes "palm-prex" {
     minimum= 8;
     maximum= 255;
 
