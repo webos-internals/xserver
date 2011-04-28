@@ -17,7 +17,6 @@ sleep 1
 xkbcomp -R$KEYMAP_DIR palm-prex $DISPLAY
 
 # Make the modifiers sticky!
-sleep 1
 xkbset exp 60 =sticky =twokey =latchlock
 xkbset sticky -twokey latchlock
 
