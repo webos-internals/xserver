@@ -1,7 +1,7 @@
 {
     "title":        "Xorg Server",
     "id":           "org.webosinternals.xserver",
-    "type":         "native_palm",
+    "type":         "game",
     "main":         "start.sh",
     "vendor":       "WebOS Internals",
     "vendor_email": "support@webos-internals.org",
