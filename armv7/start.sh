@@ -1,9 +1,14 @@
 #!/bin/sh
-#Launches the x server
 
-export DISPLAY=:0.0
+export PATH=$PATH:bin
+PATH=$PATH:bin
 
-bin/Xsdl -noreset -nolisten tcp -retro $DISPLAY
+export LD_LIBRARY_PATH=xlib:$PWD/xlib:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=xlib:$PWD/xlib:$LD_LIBRARY_PATH
 
-# cleanup!
-rm /tmp/.X* -rf
+#LOL
+forker set_keymap_later.sh
+
+#exec strace -f -o test.log bin/Xsdl -retro -noreset :0.0 >& /tmp/x.log
+
+exec Xsdl -retro -noreset :0.0 >& /tmp/x.log
