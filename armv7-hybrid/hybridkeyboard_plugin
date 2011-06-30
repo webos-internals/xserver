@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PATH=$PATH:bin
+
+#LOL
+forker set_keymap_later.sh
+
+#exec strace -f -o test.log bin/Xsdl -retro -noreset :0.0 >& /tmp/x.log
+exec bin/Xsdl -retro -noreset :0.0 >& /tmp/x.log
