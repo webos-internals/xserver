@@ -1,11 +1,12 @@
 {
     "title":        "Xorg Server",
     "id":           "org.webosinternals.xserver",
-    "type":         "game",
-    "main":         "start.sh",
+    "type":         "pdk",
+    "main":         "xecutah.sh",
+    "visible":	    false,
     "vendor":       "WebOS Internals",
     "vendor_email": "support@webos-internals.org",
     "vendor_url":   "http://www.webos-internals.org/wiki/Application:X",
-    "version":      "0.5.4",
+    "version":      "0.6.0",
     "icon":         "icon.png"
 }
