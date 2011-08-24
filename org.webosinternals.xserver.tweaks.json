@@ -6,7 +6,7 @@
         "group":"XServer",
         "restart":"app",
         "label":"Virtual Keyboard Type",
-        "help":"Set the type of virtual keyboard to use (including none)",
+        "help":"Set the type of virtual keyboard to use (including none).",
         "key":"vkbtype",
         "type":"ListSelector",
         "value":"xs",
