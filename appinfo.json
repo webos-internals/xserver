@@ -3,10 +3,10 @@
     "id":           "org.webosinternals.xserver",
     "type":         "pdk",
     "main":         "xecutah.sh",
-    "visible":	    false,
+    "visible":      false,
     "vendor":       "WebOS Internals",
     "vendor_email": "support@webos-internals.org",
     "vendor_url":   "http://www.webos-internals.org/wiki/Application:X",
-    "version":      "0.7.3",
+    "version":      "0.7.4",
     "icon":         "icon.png"
 }
