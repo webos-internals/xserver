@@ -1,0 +1,31 @@
+[
+{
+    "category":"system",
+    "owner": "org.webosinternals.xserver",
+    "prefs": [ {
+        "group":"XServer",
+        "restart":"app",
+        "label":"Virtual Keyboard Type",
+        "help":"Set the type of virtual keyboard to use (including none)",
+        "key":"vkbtype",
+        "type":"ListSelector",
+        "value":"xs",
+        "choices": [{
+            "label":"Off",
+            "value":"off"
+        },{
+            "label":"XS",
+            "value":"xs"
+        },{
+            "label":"S",
+            "value":"s"
+        },{
+            "label":"M",
+            "value":"m"
+        },{
+            "label":"L",
+            "value":"l"
+        }]
+    }]
+}
+]
