@@ -245,12 +245,13 @@ xkb_symbols "us" {
     key <A246> { [ 0x00f6 ] };
     key <A247> { [ 0x00f7 ] };
     key <A248> { [ 0x00f8 ] };
-    key <A249> { [ 0x00f9 ] };
-    key <A250> { [ 0x00fa ] };
-    key <A251> { [ 0x00fb ] };
-    key <A252> { [ 0x00fc ] };
-    key <A253> { [ 0x00fd ] };
-    key <A254> { [ 0x00fe ] };
+    // Special-cased keys go at end of the 8->255 range
+    key <A249> { [ Down ] };
+    key <A250> { [ Right ] };
+    key <A251> { [ Up ] };
+    key <A252> { [ Left ] };
+    key <A253> { [ Alt_L ] };
+    key <A254> { [ Control_L ] };
     // '1' is normally tab, but that's outside the valid range
     // of [8,255].  So instead we map tab to 255.
     key <A255> { [ Tab ] };
@@ -998,4 +999,7 @@ xkb_symbols "us" {
     key <A997> { [ 0x03e5 ] };
     key <A998> { [ 0x03e6 ] };
     key <A999> { [ 0x03e7 ] };
+
+    modifier_map Control { Control_L };
+    modifier_map Mod1 { Alt_L };
 };
