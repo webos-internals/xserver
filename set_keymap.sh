@@ -4,8 +4,6 @@ APP_DIR=`dirname $0`
 
 export DISPLAY=:0.0
 
-sleep 3
-
 # Determine which keymapping to use...
 KEYMAPPING=palm-prex
 uname -a|grep tenderloin > /dev/null
