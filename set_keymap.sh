@@ -1,8 +1,8 @@
 #!/bin/sh
 
-APP_DIR=`dirname $0`
+export DISPLAY=${DISPLAY:-:0.0}
 
-export DISPLAY=:0.0
+APP_DIR=`dirname $0`
 
 # Determine which keymapping to use...
 KEYMAPPING=palm-prex
