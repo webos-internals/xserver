@@ -1,3 +1,7 @@
 description "XServer"
 
-exec /media/cryptofs/apps/usr/palm/applications/org.webosinternals.xserver/xecutah.sh
+start on org.webosinternals.xserver
+
+script
+	exec /media/cryptofs/apps/usr/palm/applications/org.webosinternals.xserver/xecutah.sh "$@"
+end script

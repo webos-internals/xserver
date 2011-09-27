@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export DISPLAY=${1:-:0.0}
+
 APP_DIR=`dirname $0`
 
 export PATH=${APP_DIR}/bin:${PATH}
@@ -32,6 +34,6 @@ xinit() {
 export SLEEP_PID=$!
 trap xinit SIGUSR1
 
-${APP_DIR}/bin/Xsdl -retro -noreset $VKB :0.0&> /tmp/xserver.log &
+${APP_DIR}/bin/Xsdl -retro -noreset $VKB ${DISPLAY} &> /tmp/xserver.log &
 
 wait $SLEEP_PID || (exit 0)
