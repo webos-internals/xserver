@@ -250,7 +250,7 @@ xkb_symbols "us" {
     key <A250> { [ Right ] };
     key <A251> { [ Up ] };
     key <A252> { [ Left ] };
-    key <A253> { [ Alt_L ] };
+    key <A253> { [ Meta_L ] };
     key <A254> { [ Control_L ] };
     // '1' is normally tab, but that's outside the valid range
     // of [8,255].  So instead we map tab to 255.
@@ -1001,5 +1001,5 @@ xkb_symbols "us" {
     key <A999> { [ 0x03e7 ] };
 
     modifier_map Control { Control_L };
-    modifier_map Mod1 { Alt_L };
+    modifier_map Mod1 { Alt_L, Meta_L, Alt_R, Meta_R };
 };
