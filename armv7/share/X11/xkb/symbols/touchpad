@@ -244,8 +244,8 @@ xkb_symbols "us" {
     key <A245> { [ 0x00f5 ] };
     key <A246> { [ 0x00f6 ] };
     key <A247> { [ 0x00f7 ] };
-    key <A248> { [ 0x00f8 ] };
     // Special-cased keys go at end of the 8->255 range
+    key <A248> { [ Escape ] };
     key <A249> { [ Down ] };
     key <A250> { [ Right ] };
     key <A251> { [ Up ] };
